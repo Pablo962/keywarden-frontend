@@ -1,20 +1,20 @@
-# í¾¨ Keywarden Frontend
+# ï¿½ï¿½ï¿½ Keywarden Frontend
 
 AplicaciÃ³n web moderna para la gestiÃ³n integral de proveedores de equipamiento informÃ¡tico, construida con React y Vite.
 
 ## âœ¨ CaracterÃ­sticas
 
-- í´ **AutenticaciÃ³n y autorizaciÃ³n** con roles (Admin/Consultor)
-- í³Š **Dashboard ejecutivo** con KPIs en tiempo real
-- í±¥ **GestiÃ³n de proveedores** con sistema de calificaciones
-- í» ï¸ **Control de tÃ©cnicos** y calificaciones de servicio
-- í²» **Inventario de equipos** con seguimiento de garantÃ­as
-- í³ **GestiÃ³n de incidentes** y servicios tÃ©cnicos
-- í²° **Control de facturas** y Ã³rdenes de compra
-- í³ˆ **Reportes ejecutivos** con anÃ¡lisis de garantÃ­as
-- í¾­ **Interfaz moderna** con tema oscuro y efectos glass-morphism
+- ï¿½ï¿½ï¿½ **AutenticaciÃ³n y autorizaciÃ³n** con roles (Admin/Consultor)
+- ï¿½ï¿½ï¿½ **Dashboard ejecutivo** con KPIs en tiempo real
+- ï¿½ï¿½ï¿½ **GestiÃ³n de proveedores** con sistema de calificaciones
+- ï¿½ï¿½ï¿½ï¸ **Control de tÃ©cnicos** y calificaciones de servicio
+- ï¿½ï¿½ï¿½ **Inventario de equipos** con seguimiento de garantÃ­as
+- ï¿½ï¿½ï¿½ **GestiÃ³n de incidentes** y servicios tÃ©cnicos
+- ï¿½ï¿½ï¿½ **Control de facturas** y Ã³rdenes de compra
+- ï¿½ï¿½ï¿½ **Reportes ejecutivos** con anÃ¡lisis de garantÃ­as
+- ï¿½ï¿½ï¿½ **Interfaz moderna** con tema oscuro y efectos glass-morphism
 
-## í» ï¸ Stack TecnolÃ³gico
+## ï¿½ï¿½ï¿½ï¸ Stack TecnolÃ³gico
 
 - **React 18** - Biblioteca de UI
 - **Vite** - Build tool y dev server
@@ -24,7 +24,7 @@ AplicaciÃ³n web moderna para la gestiÃ³n integral de proveedores de equipamiento
 - **Tailwind CSS** - Estilos
 - **shadcn/ui** - Componentes de UI
 
-## íº€ InstalaciÃ³n
+## ï¿½ï¿½ï¿½ InstalaciÃ³n
 
 ### Prerrequisitos
 
@@ -59,14 +59,14 @@ npm run dev
 
 La aplicaciÃ³n estarÃ¡ disponible en `http://localhost:5173`
 
-## í³¦ Scripts Disponibles
+## ï¿½ï¿½ï¿½ Scripts Disponibles
 
 - `npm run dev` - Inicia el servidor de desarrollo
 - `npm run build` - Construye la aplicaciÃ³n para producciÃ³n
 - `npm run preview` - Previsualiza la build de producciÃ³n
 - `npm run lint` - Ejecuta el linter
 
-## í¿—ï¸ Estructura del Proyecto
+## ï¿½ï¿½ï¿½ï¸ Estructura del Proyecto
 
 ```
 frontend-keywarden/
@@ -86,7 +86,7 @@ frontend-keywarden/
 â””â”€â”€ index.html            # HTML principal
 ```
 
-## í¾¯ MÃ³dulos Principales
+## ï¿½ï¿½ï¿½ MÃ³dulos Principales
 
 ### Dashboard
 Panel ejecutivo con mÃ©tricas clave:
@@ -137,7 +137,7 @@ Sistema dual de calificaciones:
 - Filtros dinÃ¡micos
 - InformaciÃ³n detallada de productos
 
-## í¾¨ Estilos y Temas
+## ï¿½ï¿½ï¿½ Estilos y Temas
 
 La aplicaciÃ³n utiliza un sistema de diseÃ±o personalizado con:
 
@@ -148,7 +148,7 @@ La aplicaciÃ³n utiliza un sistema de diseÃ±o personalizado con:
 - **Badges** con colores semÃ¡nticos
 - **Responsive design**
 
-## í´ AutenticaciÃ³n
+## ï¿½ï¿½ï¿½ AutenticaciÃ³n
 
 El sistema utiliza JWT (JSON Web Tokens) para autenticaciÃ³n:
 
@@ -163,7 +163,7 @@ El sistema utiliza JWT (JSON Web Tokens) para autenticaciÃ³n:
 - **Admin**: Acceso completo a todas las funcionalidades
 - **Consultor**: Acceso de solo lectura
 
-## íº¦ IntegraciÃ³n con Backend
+## ï¿½ï¿½ï¿½ IntegraciÃ³n con Backend
 
 El frontend se comunica con el backend a travÃ©s de servicios en `src/api/`:
 
@@ -180,7 +180,7 @@ Cada servicio maneja:
 - Manejo de errores
 - TransformaciÃ³n de datos
 
-## í³± Componentes UI
+## ï¿½ï¿½ï¿½ Componentes UI
 
 Utilizamos **shadcn/ui** para componentes base:
 
@@ -192,7 +192,7 @@ Utilizamos **shadcn/ui** para componentes base:
 - Table
 - Y mÃ¡s...
 
-## í¼ Despliegue
+## ï¿½ï¿½ï¿½ Despliegue
 
 ### Build para ProducciÃ³n
 
@@ -208,14 +208,4 @@ Los archivos optimizados se generan en la carpeta `dist/`
 VITE_API_URL=https://tu-backend.com/api
 ```
 
-## í³„ Licencia
 
-Este proyecto es privado y confidencial.
-
-## í±¥ Contribuidores
-
-Desarrollado para la gestiÃ³n interna de equipamiento informÃ¡tico.
-
----
-
-**Nota**: AsegÃºrate de que el backend estÃ© ejecutÃ¡ndose antes de iniciar el frontend.
