@@ -3,7 +3,6 @@
 Aplicación web moderna para la gestión integral de proveedores de equipamiento informático, construida con React y Vite.
 
 ## ✨ Características
-
 - ��� **Autenticación y autorización** con roles (Admin/Consultor)
 - ��� **Dashboard ejecutivo** con KPIs en tiempo real
 - ��� **Gestión de proveedores** con sistema de calificaciones
